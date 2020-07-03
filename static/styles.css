@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body {
+
+	background-color: #363636;
+
+}
+
+.form {
+
+	width: 370px;
+	height: 110px;
+
+	background-color: #202020;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+
+}
+
+.inputdiv {
+
+	width: 330px;
+	height: 32px;
+
+}
+
+#inputs {
+
+	background-color: #1a60f0;
+	width: 90%;
+
+	margin: auto;
+	margin-top: 20px;
+
+	-moz-box-shadow:    inset 0 0 8px #7db4ff;
+	-webkit-box-shadow: inset 0 0 8px #7db4ff;
+	box-shadow:         inset 0 0 8px #7db4ff;
+
+}
+
+.sent {
+
+	width: 200px;
+	height: 200px;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+}
+
+p {
+
+	font-family: 'Ubuntu Mono', monospace;
+	color: #b7efcd;
+	font-size: 15px;
+
+}
+
+#title {
+
+	text-align: center;
+	font-size: 18px;
+	color: #99d8d0;
+
+}
+
+input {
+
+	color: #D9F3FF;
+	background-color: #1a60f0;
+	background-image: url('lcd.png');
+	background-repeat: repeat-x;
+	width: 299px;
+	height: 25px;
+	border: none;
+	
+	margin-left: 14px;
+	margin-top: 3px;
+
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 17px;
+	letter-spacing: 0.8em;
+
+}
+
+input:focus {
+
+	outline: none;
+
+}
+
+button {
+
+	margin-top: 10%;
+	width: 100%;
+	font-family: 'Ubuntu Mono', monospace;
+	background-color: #202020;
+	color: #ffffff;
+	padding: 10px;
+	border: none;
+
+}
+
+#top {
+
+}
+
+#bottom {
+
+}
